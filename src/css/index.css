@@ -1,0 +1,55 @@
+:root {
+  
+
+  --color1: #010a1b;
+  --color2: #011028;
+  --color3: #001534;
+  --color4: #00183b;
+  --color5: #001a41;
+  --color6: #001d47;
+  --color7: #001f4d;
+  --color8: #012254;
+  --color9: #01245a;
+  --color10: #012966;
+
+  --text-color: #fff;
+
+  --header-height: 5rem;
+  --footer-height: 20rem;
+
+  --content-padding: 2rem;
+  --content-margin: 0 5rem 0 5rem;
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: var(--text-color);
+  background-color: var(--color1);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.content {
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+
+  /* padding: var(--content-padding) 0 var(--content-padding) 0; */
+  /* margin: var(--content-margin); */
+  
+}

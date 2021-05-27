@@ -1,0 +1,119 @@
+.top {
+    width: 100%;
+    min-height: calc(100vh - var(--header-height));
+
+    background-image: url('../../media/img/vr-briller.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+}
+
+.top-background {
+    background-color: rgba(0,0,0,0.5);
+
+    width: 100%;
+    height: 70rem;
+    min-height: inherit;
+}
+
+.top .top-container {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.top .top-title {
+    text-align: center;
+
+    width: 100%;
+
+    padding-top: 5rem;
+
+    font-size: 80px;
+    white-space: nowrap;
+}
+
+.top .top-caption {
+    text-align: center;
+
+    width: 100%;
+
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.top .top-button {
+    width: 5rem;
+
+    margin-left: calc(50% - 5rem / 2);
+    margin-top: 10rem;
+
+    white-space: nowrap;
+
+    transform: scale(2);
+}
+
+.about-ktf {
+    width: 80%;
+    min-height: 100vh;
+
+    margin-left: 10%;
+}
+
+.about-ktf .about-ktf-title {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+
+    padding-top: 6rem;
+}
+
+.about-ktf .about-ktf-content {
+    margin: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+
+
+.about-ktt {
+    width: 80%;
+    min-height: 100vh;
+
+    margin-left: 10%;
+}
+
+.about-ktt .about-ktt-title {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+
+    padding-top: 6rem;
+}
+
+.about-ktt .about-ktt-content {
+    margin: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+
+.signup {
+    width: 80%;
+    min-height: 100vh;
+
+    margin-left: 10%;
+}
+
+.signup .signup-title {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+
+    padding-top: 6rem;
+}

@@ -1,0 +1,41 @@
+.footer {
+    width: 100%;
+    height: var(--footer-height);
+
+    background-color: var(--color2);
+}
+
+.footer .footer-grid {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+.footer-section .section-title {
+    opacity: 0.75;
+}
+
+.footer-section .footer-links {
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.footer-section .footer-links li {
+    margin-left: 0.25rem;
+}
+
+.footer-section .footer-links li a {
+    text-decoration: none;
+    transition: all 0.1s ease;
+}
+
+.footer-section .footer-links li a:hover,
+.footer-section .footer-links li a:active {
+    filter: blur(0.001rem);
+    text-decoration: underline;
+}
