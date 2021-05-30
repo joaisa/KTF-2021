@@ -2,6 +2,7 @@
     width: 100%;
     min-height: calc(100vh - var(--header-height));
 
+    color: #fff;
     background-image: url('../../media/img/vr-briller.jpg');
 
     background-repeat: no-repeat;
@@ -55,10 +56,10 @@
 }
 
 .about-ktf {
-    width: 80%;
-    min-height: 100vh;
+    width: 60%;
 
-    margin-left: 10%;
+    margin-left: 20%;
+    margin-bottom: 16rem;
 }
 
 .about-ktf .about-ktf-title {
@@ -76,14 +77,18 @@
     font-weight: 300;
 }
 
+.about-ktf img {
+    margin: 1.5rem 0 3rem 0;
+}
+
 
 
 
 .about-ktt {
-    width: 80%;
+    width: 60%;
     min-height: 100vh;
 
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .about-ktt .about-ktt-title {
@@ -101,6 +106,10 @@
     font-weight: 300;
 }
 
+.about-ktt img {
+    margin: 1rem 0 3.5rem 0;
+}
+
 
 
 .signup {
@@ -116,4 +125,24 @@
     text-align: center;
 
     padding-top: 6rem;
+}
+
+.signup .signup-content {
+    margin: 1rem;
+
+    text-align: center;
+
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.signup iframe {
+    width: 70%;
+    margin-left: 15%;
+
+    padding: 1rem;
+    background-color: rgba(0,0,0,.05);
+    border-radius: 5%;
+
+    margin-bottom: 10rem;
 }

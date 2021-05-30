@@ -6,6 +6,8 @@
     grid-template-columns: 1fr;
 
     margin-bottom: 5rem;
+
+    opacity: 0.5;
 }
 
 .divider .divider-top {
@@ -13,14 +15,14 @@
     height: 100%;
 
 
-    background: linear-gradient(to left top, var(--color2) 49.99%, var(--color1) 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+    background: linear-gradient(to left top, var(--primary3) 49.5%, var(--background-color) 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
 }
 
 .divider .divider-middle {
     width: 100%;
     height: 100%;
 
-    background-color: var(--color2);
+    background-color: var(--primary3);
 }
 
 .divider .divider-bottom {
@@ -28,5 +30,5 @@
     height: 100%;
 
 
-    background: linear-gradient(to right bottom, var(--color2) 49.99%, var(--color1) 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+    background: linear-gradient(to right bottom, var(--primary3) 49.5%, var(--background-color) 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
 }

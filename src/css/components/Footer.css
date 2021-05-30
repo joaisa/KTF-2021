@@ -2,7 +2,9 @@
     width: 100%;
     height: var(--footer-height);
 
-    background-color: var(--color2);
+    background-color: var(--primary2);
+
+    box-shadow: 0 -24px 36px rgba(0, 0, 0, .4), 0 10px 10px rgba(0, 0, 0, .22);;
 }
 
 .footer .footer-grid {
@@ -17,7 +19,7 @@
 }
 
 .footer-section .section-title {
-    opacity: 0.75;
+    color: white;
 }
 
 .footer-section .footer-links {
@@ -27,15 +29,17 @@
 
 .footer-section .footer-links li {
     margin-left: 0.25rem;
+    color: rgba(255, 255, 255, .75);
 }
 
 .footer-section .footer-links li a {
     text-decoration: none;
+    color: inherit;
     transition: all 0.1s ease;
 }
 
 .footer-section .footer-links li a:hover,
 .footer-section .footer-links li a:active {
-    filter: blur(0.001rem);
+    filter: blur(0.025rem);
     text-decoration: underline;
 }
